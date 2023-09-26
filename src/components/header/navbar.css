@@ -1,0 +1,32 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    height: 4em;
+    width: 100%;
+    align-items: center;
+    justify-content: center; /* justify-content: space-between; if using more items in navbar (darkmode, logo, etc) */
+    margin: 0 auto;
+    padding: 1em 2em;
+    display: flex;
+    background: rgb(28, 28, 28);
+    z-index: 10;
+    border-bottom: 1px solid rgb(80, 80, 80);
+}
+
+.navbarMenu {
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.navbarScrollToBtn {
+    margin: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    border-radius: 2em;
+}
+
+.navbarScrollToBtn:hover {
+    background-color: rgb(50, 50, 50);
+    transition: background-color 200ms linear;
+}
