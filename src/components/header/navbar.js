@@ -4,8 +4,8 @@ import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
-    <nav className='navbar'>
-        <div className='navbarMenu'>
+    <nav id='navbar'>
+        <div id='navbarMenu'>
             <Link className='navbarScrollToBtn'>Home</Link>
             <Link className='navbarScrollToBtn'>About me</Link>
             <Link className='navbarScrollToBtn'>Experience</Link>
