@@ -1,12 +1,12 @@
 #navbar {
     position: sticky;
     top: 0;
-    height: 4em;
+    height: 4rem;
     width: 100%;
     align-items: center;
     justify-content: center; /* justify-content: space-between; if using more items in navbar (darkmode, logo, etc) */
     margin: 0 auto;
-    padding: 1em 2em;
+    padding: 1rem 2rem;
     display: flex;
     background: rgb(28, 28, 28);
     z-index: 10;
@@ -16,14 +16,14 @@
 #navbarMenu {
     align-items: center;
     justify-content: center;
-    padding: 1em;
+    padding: 1rem;
 }
 
 .navbarScrollToBtn {
-    margin: 0.5em;
-    padding: 1em;
+    margin: 0.5rem;
+    padding: 1rem;
     cursor: pointer;
-    border-radius: 2em;
+    border-radius: 2rem;
 }
 
 .navbarScrollToBtn:hover {

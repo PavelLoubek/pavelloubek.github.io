@@ -1,4 +1,74 @@
 #homeSection {
     position: relative;
     overflow: hidden;
+    margin: 0 auto;
+    width: 100vw;
+    height: calc(100vh - 4rem); /* 4rem because of navbar*/
+}
+
+.homeMainText {
+    font-size: 3rem;
+    padding: 4rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-weight: 800;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.myNameIs {
+    padding: 1rem 0;
+}
+
+.homeName {
+    color: deepskyblue;
+    font-weight: 700;
+}
+
+.doStuff {
+    font-size: 2.5rem;
+}
+
+.homePortrait {
+    position: absolute;
+    height: 90vh;
+    right: 2rem;
+    z-index: -3;
+    object-fit: cover;
+    bottom: 0;
+}
+
+.linkedInBtn {
+    padding: 1rem;
+    margin: 2rem 2rem 2rem 0rem;
+    max-width: 7rem;
+    max-height: 7rem;
+    border-radius: 2rem;
+}
+
+.linkedInBtn:hover {
+    background-color: rgb(50, 50, 50);
+    transition: background-color 200ms linear;
+}
+
+.linkedInHomeLogo {
+    height: 5rem;
+}
+
+.sectionScrollTo {
+    padding: 1rem;
+    border-radius: 2rem;
+    max-width: max-content;
+    cursor: pointer;
+}
+
+.sectionScrollTo:hover {
+    background-color: rgb(50, 50, 50);
+    transition: background-color 200ms linear;
 }
