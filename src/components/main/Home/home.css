@@ -37,11 +37,15 @@
 
 .homePortrait {
     position: absolute;
-    height: 90vh;
-    right: 2rem;
+    top: 50%;
+    right: 5%;
+    height: 70vh;
+    transform: translate(-5%, -50%);
     z-index: -3;
     object-fit: cover;
-    bottom: 0;
+    border-radius: 50%;
+    border: solid white 2px;
+    
 }
 
 .linkedInBtn {

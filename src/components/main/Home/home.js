@@ -2,7 +2,7 @@ import React from 'react';
 import './home.css';
 import linkedInLogo from '../../../images/linkedInHomeLogoLight.png';
 import { Link } from 'react-scroll';
-import portraitPhoto from '../../../images/homePortrait.png'
+import portraitPhoto from '../../../images/homePortraitSquare.png'
 
 const Home = () => {
   return (
