@@ -76,3 +76,7 @@
     background-color: rgb(50, 50, 50);
     transition: background-color 200ms linear;
 }
+
+#mainTextOnly {
+    padding: 1rem;
+}

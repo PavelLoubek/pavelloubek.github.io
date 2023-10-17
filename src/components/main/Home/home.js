@@ -8,9 +8,11 @@ const Home = () => {
   return (
     <section id="homeSection">
       <div className="homeMainText">
-        <p className="hello">Hello!</p>
-        <p className="myNameIs">My name is <span className="homeName">Pavel Loubek</span></p>
-        <p className="doStuff">and I do various stuff from IT!</p>
+        <div id="mainTextOnly">
+          <p className="hello">Hello!</p>
+          <p className="myNameIs">My name is <span className="homeName">Pavel Loubek</span></p>
+          <p className="doStuff">and I do various stuff from IT!</p>
+        </div>
         <a className="linkedInBtn" href="https://www.linkedin.com/in/pavelloubek/"><img src={linkedInLogo} alt="LinkedIn" className="linkedInHomeLogo"/></a>
         <Link className="sectionScrollTo">More info below!</Link>
       </div>
