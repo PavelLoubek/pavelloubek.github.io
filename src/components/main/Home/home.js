@@ -9,7 +9,7 @@ const Home = () => {
     <section id="homeSection">
       <div className="homeMainText">
         <div id="mainTextOnly">
-          <p className="hello">Hello!</p>
+          <h1 className="hello">Hello!</h1>
           <p className="myNameIs">My name is <span className="homeName">Pavel Loubek</span></p>
           <p className="doStuff">and I do various stuff from IT!</p>
         </div>

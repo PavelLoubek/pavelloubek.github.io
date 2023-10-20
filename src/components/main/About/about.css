@@ -1,0 +1,52 @@
+#aboutSection {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    min-height: calc(100vh - 4rem);
+    height: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.aboutTextOnly {
+    padding: 4rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+.aboutHeading {
+    font-size: 4rem;
+    padding: 2rem;
+    font-weight: 700;
+}
+
+.aboutParagraph1 {
+    padding: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+.aboutParagraph2 {
+    padding-bottom: 4rem;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+@media screen and (max-width:680px) {
+    .aboutHeading {
+        font-size: 2.5rem;
+    }
+
+    .aboutParagraph1 {
+        font-size: 1.2rem;
+    }
+    
+    .aboutParagraph2 {
+        font-size: 1.2rem;
+    }
+}
